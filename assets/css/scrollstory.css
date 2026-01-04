@@ -1,27 +1,33 @@
-/* Scrollstory specific styles */
-
-/* Import original fonts for scrollstory pages */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;700&display=swap');
-
-/* Override base fonts with original pairing */
-.scrollstory-container {
+/* Scrollstory specific styles - fonts imported in base.css */
+/* Override container styling for scrollstory pages */
+.container {
   /* Box Model */
-  max-width: 55rem;
-  padding: 0;
+  max-width: 45rem;
+  padding: 0 var(--spacing-md);
   margin: auto;
-  
+
   /* Typography */
   font-family: 'Lora', serif;
   font-size: 1rem;
   line-height: 1.4em;
 }
 
-.scrollstory-container h1,
-.scrollstory-container h2,
-.scrollstory-container h3,
-.scrollstory-container h4,
-.scrollstory-container h5 {
+.container p {
+  /* Typography */
+  line-height: 1.6em;
+}
+
+/* Text boxes within background images */
+.bg-text-box {
+  /* Typography */
+  font-family: 'Lora', serif;
+}
+
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5 {
   /* Typography */
   font-family: 'Source Sans 3', sans-serif;
   font-weight: normal;

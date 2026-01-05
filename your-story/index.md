@@ -20,7 +20,7 @@ This essay shows almost all the design elements you can employ on your essay pag
 
 
 ## Second heading
-{% include figure.html 
+{% include images/figure.html 
 class="right" 
 width="48%" 
 caption="Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris." 
@@ -37,7 +37,7 @@ Aliquam in sapien mauris. Aliquam erat volutpat. Nunc congue ultrices lacus, a e
 
 Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan. Duis quis aliquam nulla. Aenean scelerisque lacus vel pretium viverra. Sed id faucibus turpis. Etiam nec pellentesque lacus.
 
-{% include juxtapose.html
+{% include images/juxtapose.html
 image1="images/mvh-tv-room.jpg"
 image2="images/mvh-hist-common-room.jpg"
 caption="From the TV room to the Chair room (actually, the History Department Common Room). With a less good view of the mountains."
@@ -62,7 +62,7 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
 ## Cras magna nunc
 Pellentesque viverra hendrerit sapien eu consequat. Curabitur leo ante, vestibulum a tincidunt eget, placerat eu nunc. Donec ut sem mi. Vivamus commodo nec sem eget pretium. Nulla ullamcorper volutpat venenatis. Aliquam tempor dolor magna, in dictum ipsum suscipit non. Cras magna nunc, efficitur id laoreet ac, laoreet quis turpis. 
 
-{% include aside.html class="left" text="
+{% include typography/aside.html class="left" text="
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque." %}
 
 Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Maecenas eu auctor sapien. Sed gravida vel ipsum in porta. Nam vitae cursus elit. Morbi posuere lacinia sem a molestie. Etiam sagittis augue ut imperdiet aliquet. Donec urna lorem, pharetra in augue nec, tristique luctus enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id blandit ornare, mi nisi rutrum ante, vitae dignissim mauris nisl mattis nisl.
@@ -105,7 +105,7 @@ This is the end of the story, and you should see the text box scroll out of view
 
 
 ## Duis vehicula erat et diam
-{% include figure.html class="right" width="60%" caption="Duis in sagittis arcu. Donec dictum aliquam congue. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/mvh-floorplan.jpg" %}
+{% include images/figure.html class="right" width="60%" caption="Duis in sagittis arcu. Donec dictum aliquam congue. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/mvh-floorplan.jpg" %}
 
 Duis ut dui dolor. Integer eu lectus at tellus accumsan euismod eget a ligula. Morbi venenatis, elit eu varius fermentum, ligula est dictum massa, sit amet ullamcorper augue nisl ut nunc. Integer placerat vitae metus vitae faucibus. Pellentesque consectetur augue ac volutpat dignissim. Sed laoreet congue ligula sit amet vestibulum. Duis vehicula erat et diam pharetra iaculis. Etiam rutrum scelerisque nunc, ut interdum justo pellentesque sit amet. Vivamus cursus massa mauris, a finibus felis laoreet quis. Integer vel molestie neque. Quisque in ipsum eget dui mattis efficitur sed in diam. In odio sem, tincidunt non venenatis a, consequat sed ligula.
 
@@ -122,7 +122,7 @@ images/mvh-history-stays.jpg,
 images/mvh-room-cost.jpg" | split: ','
 %}
 
-{% include carousel.html
+{% include images/carousel.html
 images = images 
 %}
 

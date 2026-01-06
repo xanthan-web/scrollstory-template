@@ -5,7 +5,7 @@ layout: base
 
 # Using This ScrollStory Template
 
-**Welcome!** This page guides you through customizing this template for your own ScrollStory essay. Once you're done or just like tidying up, **can you delete this file**—it's just for getting started.
+**Welcome!** This page guides you through customizing this template for your own ScrollStory essay. Once you're done editing (or feel like you got the hang of it), **can you delete this file**—it's just for getting started.
 
 
 ## What You Have
@@ -64,36 +64,38 @@ title: Your Essay Title
 
 ### Replacing Sample Content
 
-1. **Edit the text** in `scrollstory/index.md`:
+1. **Edit the text** in `your-story/index.md`
    - Keep the special tags (like `{% include scrollybox/bg.html %}`)
    - Replace the text inside scrollboxes with your content
    - Update image paths to point to your own images
 
-2. **Add your images** to `scrollstory/images/`:
-   - Upload your background images here
+2. **Add your images** to `your-story/images/`:
+   - Upload ALL images here
    - Use descriptive filenames (e.g., `forest-view.jpg`, `historical-map.png`)
-   - Update image paths in your essay
+
 
 3. **Learn the components** from the [ScrollStory documentation](/docs/scrollstories/):
    - How to add background images
    - How to switch between images
    - How to create side-scrolling sections
 
+
 ## Renaming Your Essay Folder
 
-Want to rename `/scrollstory/` to match your essay topic? Here's how:
+Eventually you'll want to rename `/your-story/` to match your essay topic. Here's how:
 
 1. **Rename the folder** to your essay title:
    - Example: `/scrollstory/` → `/forest-history/`
    - Keep the name lowercase with hyphens (no spaces)
 
 2. **Update navigation** in `_data/top-nav.yml`:
-   - Find the line with `/scrollstory`
-   - Change it to `/forest-history` (or your folder name)
+   - Find the line with `/your-story`
+   - Change it to `/forest-history` (obviously use your own folder name from step 1)
 
 3. **Update homepage link** in `index.md`:
-   - Find links pointing to `/scrollstory`
+   - Find links pointing to `/your-story`
    - Update them to your new folder name
+
 
 ## Adding Images
 
@@ -132,7 +134,8 @@ See the [Using AI Assistance](https://xanthan-web.github.io/xanthan/docs/content
 Once you're comfortable working with your site:
 1. **If you want, delete this file** (`instructions.md`)
 2. **Remove it from the top nav** Remove the title and url lines (in `_data/top-nav.yml`)
-
+3. **Remove the docs link from the top nav** Remove the title and url lines (in `_data/top-nav.yml`)
+ 
 ---
 
 {: .text-center .text-muted}

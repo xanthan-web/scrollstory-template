@@ -5,32 +5,16 @@ layout: base
 
 # ScrollStory Template for Xanthan
 
-A ready-to-use template for creating immersive narrative essays with scrolling backgrounds, overlays, and visual storytelling.
+A ready-to-use template for creating immersive narrative essays with scrolling backgrounds, overlays, and visual storytelling. This template is part of [Xanthan](xanthan-web-github.io).
 
-## What Is This?
-
-This template gives you:
-- **Sample essay** showing how ScrollStories work
-- **Free hosting** on GitHub Pages
-- **Beautiful design** out of the box
-- **No coding required** — edit in your browser
-
-## What Do You Want to Do?
-
-### Just Exploring?
-Want to see what a ScrollStory looks like? Browse the sample essay and check out the [ScrollStory features](docs/scrollstories/). No need to clone anything yet.
-
-**→ [View ScrollStory Examples](docs/scrollstories/)**
-
-### Have you already made your own copy?
-You've cloned this template and want to start editing. Perfect! Pick a path:
+So you've cloned this template and want to start editing. Perfect! Pick a path:
 
 **I want to understand how this works first**
 - [Understand the folder structure](docs/getting-started/) — Know what files do what
 - [Learn ScrollStory techniques](docs/scrollstories/) — See all the features you can use
 
 **I'm ready to jump in and edit**
-- [Quick checklist: Get started in 10 minutes](instructions.md)
+- [A walk-thru of basic edits](instructions.md)
 - [Editing on GitHub](docs/getting-started/editing-in-github) — Change content right in your browser
 
 

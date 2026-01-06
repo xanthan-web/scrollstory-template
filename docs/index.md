@@ -18,25 +18,25 @@ Choose a section to explore:
 
 ## Getting Started
 
-{% include nav/card-toc.html rows=getting_started %}
+{% include nav/card-toc-compact.html rows=getting_started %}
 
 ---
 
 ## Content & Design
 
-{% include nav/card-toc.html rows=content_design %}
+{% include nav/card-toc-compact.html rows=content_design %}
 
 ---
 
 ## Navigation
 
-{% include nav/card-toc.html rows=navigation %}
+{% include nav/card-toc-compact.html rows=navigation %}
 
 ---
 
 ## ScrollStories
 
-{% include nav/card-toc.html rows=scrollstories %}
+{% include nav/card-toc-compact.html rows=scrollstories %}
 
 ---
 

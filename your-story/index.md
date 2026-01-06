@@ -1,7 +1,7 @@
 ---
 title: Forest
 author: Fred Gibbs
-layout: base
+layout: scrollstory
 date: 2025-07-21
 thumbnail: images/forest.png
 summary: This essays demonstrates all the different components you might use on your page. Of course you don't need to use them all, but it's a good starting point if you feel comfortable with code snippets and deleting what you don't need.
@@ -15,27 +15,35 @@ tags:
   - music
 ---
 
-# Welcome to the Jungle
-This essay shows almost all the design elements you can employ on your essay pages. Most of the text is just dummy text to keep the focus on the page elements.
+# A Forest Essay
+This essay demonstrates **advanced ScrollStory features**—everything from Seedling and Sapling, plus background image switching, juxtapose comparisons, and multi-section scrollyboxes. This is the full cinematic experience.
+
+**What makes this a "Forest" essay?** It includes every component Xanthan offers: all the basics (headings, images, footnotes), Sapling features (scrollyboxes, carousels), plus advanced techniques for complex visual narratives. Use this when you want maximum storytelling power.
+
+The text below explains each advanced feature as you encounter it, mixed with some filler to show pacing.
 
 
-## Second heading
-{% include images/figure.html 
-class="right" 
-width="48%" 
-caption="Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris." 
-image-path="images/mvh-history-stays.jpg" 
+## All the Basics Still Work
+{% include images/figure.html
+class="right"
+width="48%"
+caption="Right-aligned images work exactly like Seedling and Sapling. Every skill you've learned carries forward. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)"
+image-path="images/mvh-history-stays.jpg"
 %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus. Praesent libero mi, pharetra vel neque sit amet, elementum tempor purus.[^note1]
+Forest doesn't replace Seedling or Sapling—it **includes** them. You can mix simple images, footnotes, and section headings[^note1] with the advanced features we're about to show you.
 
-[^note1]: This is my citation at the end of the FIRST paragraph.
+[^note1]: Footnotes work in Forest essays exactly as they do everywhere else.
 
-Aliquam in sapien mauris. Aliquam erat volutpat. Nunc congue ultrices lacus, a efficitur massa pulvinar at. Sed luctus orci sed sem commodo, in rhoncus orci sagittis. Duis in sagittis arcu. Donec dictum aliquam congue. Nulla varius ipsum vitae nibh dapibus, et tincidunt turpis gravida. Sed hendrerit nisl in elit accumsan tincidunt. Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris. Curabitur vitae commodo felis. Nulla facilisi. Suspendisse tincidunt elit finibus, porta felis vel, varius lacus.[^note2]
+The key to Forest essays is knowing when to use which tool. Not every moment needs a cinematic treatment. Sometimes a simple image alongside text is exactly right.
 
-[^note2]: This is my citation at the end of the SECOND paragraph.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis.[^note2]
 
-Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan. Duis quis aliquam nulla. Aenean scelerisque lacus vel pretium viverra. Sed id faucibus turpis. Etiam nec pellentesque lacus.
+[^note2]: You can use footnotes throughout Forest essays for citations and elaboration.
+
+
+## Juxtapose: Before/After Comparisons
+Below you'll see a **juxtapose component**—an interactive slider that lets readers compare two images by dragging a handle left and right. Perfect for before/after, then/now, or any two related images.
 
 {% include images/juxtapose.html
 image1="images/mvh-tv-room.jpg"
@@ -43,12 +51,19 @@ image2="images/mvh-hist-common-room.jpg"
 caption="From the TV room to the Chair room (actually, the History Department Common Room). With a less good view of the mountains."
 %}
 
+**Why use juxtapose?** When you want readers to actively explore the relationship between two images. The interactive slider invites engagement—readers control what they see and how much of each image.
 
-Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc nec congue. Curabitur sapien risus, finibus id tincidunt iaculis, porta et ipsum. Cras eu mollis sapien. Sed a mauris finibus orci molestie mollis. Pellentesque dui justo, rhoncus at felis eu, dapibus bibendum sem. Etiam quis mauris nec sem sollicitudin posuere quis in orci. Phasellus ultrices massa nunc, vitae malesuada sapien semper non.
+**Use cases:**
+- Historical photos showing change over time
+- Different views of the same location
+- Comparing historical documents or maps
+- Revealing differences that might be subtle
+
+Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc nec congue. Curabitur sapien risus, finibus id tincidunt iaculis, porta et ipsum.
 
 
-## Donec odio elit
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent id feugiat tellus, at luctus elit. Fusce dapibus venenatis felis, sed tristique diam volutpat in. Donec odio elit, euismod non quam vel, posuere sagittis arcu. Vestibulum in augue et arcu porttitor dapibus a vitae velit. Mauris ultricies suscipit gravida. 
+## Standard Scrollybox (From Sapling)
+The next section uses a basic scrollybox like you saw in Sapling. Keep scrolling to see text overlay a full-screen background image.
 
 {% include scrollybox/bg.html
   height="220vh"
@@ -59,16 +74,24 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
 %}
 
 
-## Cras magna nunc
-Pellentesque viverra hendrerit sapien eu consequat. Curabitur leo ante, vestibulum a tincidunt eget, placerat eu nunc. Donec ut sem mi. Vivamus commodo nec sem eget pretium. Nulla ullamcorper volutpat venenatis. Aliquam tempor dolor magna, in dictum ipsum suscipit non. Cras magna nunc, efficitur id laoreet ac, laoreet quis turpis. 
-
+## Pull Quotes for Emphasis
 {% include typography/aside.html class="left" text="
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque." %}
+Pull quotes still work in Forest essays. Mix them with scrollyboxes depending on what your narrative needs at any given moment." %}
 
-Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Maecenas eu auctor sapien. Sed gravida vel ipsum in porta. Nam vitae cursus elit. Morbi posuere lacinia sem a molestie. Etiam sagittis augue ut imperdiet aliquet. Donec urna lorem, pharetra in augue nec, tristique luctus enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id blandit ornare, mi nisi rutrum ante, vitae dignissim mauris nisl mattis nisl.
+Notice how you can shift between immersive full-screen scrollyboxes and traditional pull quotes within the same essay. **Choose the right tool for the moment:**
 
-Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc nec congue. Curabitur sapien risus, finibus id tincidunt iaculis, porta et ipsum. Cras eu mollis sapien. Sed a mauris finibus orci molestie mollis. Pellentesque dui justo, rhoncus at felis eu, dapibus bibendum sem. Etiam quis mauris nec sem sollicitudin posuere quis in orci. Phasellus ultrices massa nunc, vitae malesuada sapien semper non.
+- Scrollyboxes for dramatic visual immersion
+- Pull quotes for emphasis within ongoing text
+- Standard images for supporting illustrations
+- Juxtapose for interactive comparisons
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lacus id blandit ornare, mi nisi rutrum ante, vitae dignissim mauris nisl mattis nisl.
+
+
+## Background Switching: The Advanced Feature
+This is what makes Forest essays truly cinematic. You're about to scroll through a section where the background image **switches** as you read, creating a visual sequence that matches your narrative.
+
+**Watch carefully:** The background will start with one image, then switch to another partway through. The text box stays visible throughout, but the background changes to match what you're reading about.
 
 <!-- this is an unclosed div that needs to be closed with bg-multi-long-close-->
 {% include scrollybox/bg-multi-long.html
@@ -79,12 +102,14 @@ Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc n
   line-height = "100%"
 %}
 
-Now we have a text box scrolling up over the image. At various points (clearly labled in the following text) **the background image will switch.**
+Now we have a text box scrolling up over the first image. At various points (clearly labeled below) **the background image will switch** while the text continues scrolling.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec ante ligula. Nulla fringilla ligula sit amet nisl consectetur ultricies. Mauris ac tellus eu ante lobortis rhoncus non eu nisl. Curabitur consectetur placerat commodo. Maecenas sagittis facilisis turpis vel porta. Nulla facilisi. Nam viverra eget metus eget efficitur.
+This is perfect for visual sequences: walking through a building room by room, showing historical change over time, or revealing evidence step by step.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec ante ligula. Nulla fringilla ligula sit amet nisl consectetur ultricies. Mauris ac tellus eu ante lobortis rhoncus non eu nisl.
 
 
-### IMAGE SWITCH HERE 
+### BACKGROUND IMAGE SWITCHES HERE
 
 {% include scrollybox/bg-switch.html
   image-path="images/mvh-tv-room.jpg"
@@ -93,51 +118,80 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec ante ligu
 %}
 
 
-### Duis vehicula erat et diam
-Duis ut dui dolor. Integer eu lectus at tellus accumsan euismod eget a ligula. Morbi venenatis, elit eu varius fermentum, ligula est dictum massa, sit amet ullamcorper augue nisl ut nunc. Integer placerat vitae metus vitae faucibus. Pellentesque consectetur augue ac volutpat dignissim. Sed laoreet congue ligula sit amet vestibulum. 
+### The New Background
+Did you notice the background change? The floorplan switched to the TV room photo. Your text continued scrolling, but the visual context shifted.
+
+**Why use background switching?**
+- Narrative sequences (first this happened, then that)
+- Spatial movement (from room to room, place to place)
+- Evidence building (showing multiple sources for one argument)
+- Visual comparisons while maintaining narrative flow
+
+Duis ut dui dolor. Integer eu lectus at tellus accumsan euismod eget a ligula. Morbi venenatis, elit eu varius fermentum, ligula est dictum massa, sit amet ullamcorper augue nisl ut nunc.
 
 
-#### Almost done
-This is the end of the story, and you should see the text box scroll out of view followed by the background image.
-
+#### The End of This Sequence
+Watch as the text box scrolls out of view, followed by the background image fading away. Then normal scrolling resumes.
 
 {% include scrollybox/bg-multi-long-close.html %}
 
 
-## Duis vehicula erat et diam
-{% include images/figure.html class="right" width="60%" caption="Duis in sagittis arcu. Donec dictum aliquam congue. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/mvh-floorplan.jpg" %}
+## Back to Normal Flow
+Notice how smoothly you transitioned from that immersive multi-image sequence back to regular essay format? That's the power of mixing components.
 
-Duis ut dui dolor. Integer eu lectus at tellus accumsan euismod eget a ligula. Morbi venenatis, elit eu varius fermentum, ligula est dictum massa, sit amet ullamcorper augue nisl ut nunc. Integer placerat vitae metus vitae faucibus. Pellentesque consectetur augue ac volutpat dignissim. Sed laoreet congue ligula sit amet vestibulum. Duis vehicula erat et diam pharetra iaculis. Etiam rutrum scelerisque nunc, ut interdum justo pellentesque sit amet. Vivamus cursus massa mauris, a finibus felis laoreet quis. Integer vel molestie neque. Quisque in ipsum eget dui mattis efficitur sed in diam. In odio sem, tincidunt non venenatis a, consequat sed ligula.
+{% include images/figure.html class="right" width="60%" caption="After an immersive scrollybox sequence, a standard right-aligned image feels grounding and gives readers a break. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/mvh-floorplan.jpg" %}
+
+**Pacing matters in Forest essays.** If everything is cinematic and immersive, nothing stands out. Use advanced features strategically:
+
+- Build to moments of visual intensity
+- Give readers breaks with standard images and text
+- Save background switching for key narrative turns
+- Use juxtapose when comparison is the point
+
+Duis ut dui dolor. Integer eu lectus at tellus accumsan euismod eget a ligula. Morbi venenatis, elit eu varius fermentum, ligula est dictum massa, sit amet ullamcorper augue nisl ut nunc.
 
 
-## Praesent libero mi
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus. Praesent libero mi, pharetra vel neque sit amet, elementum tempor purus. Aliquam in sapien mauris. Aliquam erat volutpat. 
+## Image Carousels (From Sapling)
+All Sapling components work in Forest too. Here's a carousel for comparing multiple images:
 
-Nunc congue ultrices lacus, a efficitur massa pulvinar at. Sed luctus orci sed sem commodo, in rhoncus orci sagittis. Duis in sagittis arcu. Donec dictum aliquam congue. Nulla varius ipsum vitae nibh dapibus, et tincidunt turpis gravida. Sed hendrerit nisl in elit accumsan tincidunt. Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris. Curabitur vitae commodo felis. Nulla facilisi. Suspendisse tincidunt elit finibus, porta felis vel, varius lacus.
-
-
-{% assign images = 
+{% assign images =
 "images/mvh-menu.jpg,
 images/mvh-history-stays.jpg,
 images/mvh-room-cost.jpg" | split: ','
 %}
 
 {% include images/carousel.html
-images = images 
+images = images
 %}
 
+Carousels work well after intense scrollybox sequences. They're interactive but less immersive than full-screen backgrounds, giving readers some control while maintaining visual interest.
 
 
-## Curabitur sapien risus
-Sed efficitur leo in magna pretium, euismod malesuada risus interdum. Proin sed libero et enim pulvinar convallis non eget est. Sed ultrices dui vitae enim semper accumsan. Duis quis aliquam nulla. Aenean scelerisque lacus vel pretium viverra. Sed id faucibus turpis. Etiam nec pellentesque lacus.
-
-Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc nec congue. Curabitur sapien risus, finibus id tincidunt iaculis, porta et ipsum. Cras eu mollis sapien. Sed a mauris finibus orci molestie mollis. Pellentesque dui justo, rhoncus at felis eu, dapibus bibendum sem. Etiam quis mauris nec sem sollicitudin posuere quis in orci. Phasellus ultrices massa nunc, vitae malesuada sapien semper non.
-
+## Block Quotes for Sources
 > As of 1967 this was the design for the first floor of La Posada, reflecting the original design of Ernest J. Kump, lead design architect, and the alteration made by Sherman Smith. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)
 
+Block quotes continue to work for extended quotations from primary sources. They're visually distinct from scrollybox overlays and provide a rhythm change in your essay.
 
-## Morbi posuere lacinia
-Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Maecenas eu auctor sapien. Sed gravida vel ipsum in porta. Nam vitae cursus elit. Morbi posuere lacinia sem a molestie. Etiam sagittis augue ut imperdiet aliquet. Donec urna lorem, pharetra in augue nec, tristique luctus enim.
+
+## What You've Learned in Forest
+If you can create a Forest essay, you have mastered:
+
+- **All Seedling components** - Images, headings, footnotes, pull quotes, block quotes
+- **All Sapling components** - Basic scrollyboxes, carousels, pacing control
+- **Advanced Forest features**:
+  - Juxtapose interactive comparisons
+  - Background image switching on scroll
+  - Multi-section scrollybox sequences
+  - Complex cinematic narratives
+
+**This is the full Xanthan toolkit.** Not every essay needs every feature, but you now have complete control over how to tell visual stories on the web.
+
+**When to use Forest vs. Sapling vs. Seedling?**
+- **Seedling** for straightforward digital essays with images and structure
+- **Sapling** when you want immersive scrollyboxes and carousels
+- **Forest** when your narrative demands cinematic sequences and background switching
+
+**Pro tip:** Start simple and add complexity only where it serves your argument. The best essays use advanced features sparingly, for maximum impact.
 
 
 ## Bibliography
@@ -149,3 +203,4 @@ Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend le
 - University of New Mexico. Dept. of Facility Planning architectural drawings, 1892-2011, collection SWA UNMFPLAN Drawings, Stack 13	Drawer 01. Center for Southwest Research, University Libraries, University of New Mexico.
 
 - University of New Mexico. Dept. of Facility Planning Records, 1889-, collection UNMA 028,Box  34. Center for Southwest Research, University Libraries, University of New Mexico.
+

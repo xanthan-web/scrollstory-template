@@ -5,45 +5,49 @@ layout: base
 
 # Using This ScrollStory Template
 
-**Welcome!** This page guides you through customizing this template for your own ScrollStory essay. Once you're comfortable with the template, **can you delete this file**—it's just for getting started.
+**Welcome!** This page guides you through customizing this template for your own ScrollStory essay. Once you're done or just like tidying up, **can you delete this file**—it's just for getting started.
+
 
 ## What You Have
-
 This template includes:
-- **Sample ScrollStory essay** in the `/scrollstory/` folder
-- **About page** for author information
-- **Bibliography page** for your sources
-- **Homepage** that introduces your essay
-- **Complete documentation** in `/docs/` folder
+- **Homepage** that introduces your essay (index.md)
+- **Sample ScrollStory essay** in the `/your-story/` folder. You'll rename this for your project.
+- **About page** for general information about you or your project (about.md)
+- **Bibliography page** for your sources (bibliography.md)
 
-## Your First Steps
+
+## Start Editing!
+
+If you're not familiar with [editing your site on GitHub](docs/getting-started/editing-in-github.md), read through the directions on how to do that. 
+
+
 
 ### 1. Customize the Homepage (`index.md`)
 
 Edit `index.md` in the root folder to:
 - Change the title and introduction
-- Update the link to your essay (if you rename the folder)
-- Add your name and project context
+- Introduce your project, etc.
+
 
 ### 2. Edit the About Page (`about.md`)
-
 Replace the sample content with:
 - Information about you (author bio)
 - Context for your essay or project
 - Any acknowledgments or credits
 
-### 3. Update the Bibliography (`bibliography.md`)
 
+### 3. Update the Bibliography (`bibliography.md`)
 Add your sources and references:
-- Books, articles, websites you consulted
+- Books, articles, websites
 - Images sources and credits
 - Data sources
 
-## Working with Your ScrollStory
+
+## Editing Your ScrollStory
 
 ### Understanding the Essay Structure
 
-Open `/scrollstory/index.md` to see your essay content. The file includes:
+Open `/your-story/index.md` to see your essay content. The file includes:
 
 **Front Matter (top of file):**
 ```yaml
@@ -108,10 +112,6 @@ your-story/
 
 ## Getting Help
 
-### Template-Specific Questions
-- Check this file (you're reading it!)
-- Look at the sample essay in `/scrollstory/index.md` to see how components work
-
 ### Xanthan Documentation
 - **Browse local docs**: `/docs/` folder in your repository
 - **ScrollStory guides**: `/docs/scrollstories/` for detailed scrolling techniques
@@ -125,23 +125,13 @@ Use AI tools like Claude or ChatGPT for help:
 
 See the [Using AI Assistance](https://xanthan-web.github.io/xanthan/docs/content-design/using-ai-assistance) guide for tips.
 
-## Common Tasks
 
-### Change Essay Title
-Edit `scrollstory/index.md` front matter:
-```yaml
-title: "Your New Title Here"
-```
-
-### Update Navigation
-Edit `_data/top-nav.yml` to add/remove menu items
 
 ## Clean Up When Done
 
-Once you're comfortable with the template:
-
-1. **Delete this file** (`instructions.md`)
-2. **Remove the instructions link** from your navigation (in `_data/top-nav.yml`)
+Once you're comfortable working with your site:
+1. **If you want, delete this file** (`instructions.md`)
+2. **Remove it from the top nav** Remove the title and url lines (in `_data/top-nav.yml`)
 
 ---
 

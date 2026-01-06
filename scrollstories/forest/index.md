@@ -204,3 +204,27 @@ If you can create a Forest essay, you have mastered:
 
 - University of New Mexico. Dept. of Facility Planning Records, 1889-, collection UNMA 028,Box  34. Center for Southwest Research, University Libraries, University of New Mexico.
 
+---
+
+## Ready to Create Your Own?
+
+**New to Xanthan?** Start with the [Getting Started guide](../../../docs/getting-started/) to create your own site first. Once you have a working site, come back here to build your ScrollStory.
+
+**Already have a Xanthan site?** To make your own Forest essay:
+
+1. **Duplicate this folder** (`scrollstories/forest/`) and rename it for your topic
+2. **Replace the text** with your own content, keeping the structure
+3. **Add your own images** to the `images/` folder
+4. **Update the front matter** at the top (title, author, date, header image, etc.)
+5. **Customize advanced components** - Adjust background switching, juxtapose comparisons, and scrollybox sequences
+
+**What makes Forest the most advanced template?**
+- Juxtapose interactive image comparisons (before/after, then/now)
+- Background image switching on scroll for dramatic visual transitions
+- Multi-section scrollyboxes with narrative sequences
+- Full cinematic storytelling capabilities
+- Everything from Seedling and Sapling, plus these advanced features
+
+**Feeling overwhelmed?** Start with [Seedling](../seedling/) or [Sapling](../sapling/) and work your way up. You can always add complexity later once you're comfortable with the basics. Most excellent digital essays use Seedling or Sapling—Forest is for when you truly need cinematic power.
+
+{% include scrollybox/auto-scroll.html speed=800 %}

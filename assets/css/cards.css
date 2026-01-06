@@ -451,7 +451,10 @@ ToC ROWS
 
 .toc-row:hover .toc-arrow polyline {
   stroke: var(--interactive-hover);
-}COMPACT ToC ROWS (for documentation indexes)
+}
+
+/*****************************************************
+COMPACT ToC ROWS (for documentation indexes)
 *****************************************************/
 
 .toc-row-compact {

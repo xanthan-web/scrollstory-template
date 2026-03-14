@@ -3,8 +3,7 @@ title: Forest
 author: Fred Gibbs
 layout: scrollstory
 date: 2025-07-21
-<<<<<<< Updated upstream
-thumbnail: images/forest.jpg
+thumbnail: images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg
 summary: The kitchen sink of demos. This essay showcases every ScrollStory component — background switching, sticky backgrounds, side-scroll sections, juxtapose comparisons, and more.
 header-image: images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg
 header-title: The Forest
@@ -12,24 +11,9 @@ header-eyebrow: ScrollStory Demo
 header-divider: ✦ ✦ ✦
 header-subtitle: every component, one essay
 header-caption: Photo by <a href="https://unsplash.com/@sebastian_unrau">Sebastian Unrau</a> on <a href="https://unsplash.com">Unsplash</a>
-=======
-thumbnail: images/forest.png
-summary: This essays demonstrates all the different components you might use on your page. Of course you don't need to use them all, but it's a good starting point if you feel comfortable with code snippets and deleting what you don't need.
-header-image: images/sebastian-unrau-sp-p7uuT0tw-unsplash
-header-title: The Forest
-header-subtitle: a essay
-header-position: 0px
-toc-section: piano
-autoscroll: true
-
-geo: [44.600000, -110.500000]
-placename: Yellowstone National Park
-tags:
-  - music
 ---
 
 This essay demonstrates **advanced ScrollStory features**—everything from Seedling and Sapling, plus background image switching, juxtapose comparisons, and multi-section scrollyboxes. This is the full cinematic experience.
->>>>>>> Stashed changes
 
 Notice the header above: it includes an **eyebrow** ("ScrollStory Demo"), a **divider** (the decorative line of symbols), and a **subtitle** below the title. These hero-only fields are set in the front matter:
 
@@ -160,14 +144,8 @@ Use `above-box-space` and `below-box-space` to control pacing — more space mea
 %}
 
 
-<<<<<<< Updated upstream
 ## Background Switching: Multiple Images
 This is what makes Forest essays truly cinematic. You're about to scroll through a section where the background image **switches multiple times** as you read, creating a visual sequence that matches your narrative.
-=======
-## Pull Quotes for Emphasis
-{% include typography/pullquote.html text="
-Pull quotes still work in Forest essays. Mix them with scrollyboxes depending on what your narrative needs at any given moment." %}
->>>>>>> Stashed changes
 
 **Watch carefully:** The background starts with one image, then switches to a second, then a third. The text box stays visible throughout.
 

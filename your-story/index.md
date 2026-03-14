@@ -3,7 +3,7 @@ title: Forest
 author: Fred Gibbs
 layout: scrollstory
 date: 2025-07-21
-thumbnail: images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg
+thumbnail: images/forest.jpg
 summary: The kitchen sink of demos. This essay showcases every ScrollStory component — background switching, sticky backgrounds, side-scroll sections, juxtapose comparisons, and more.
 header-image: images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg
 header-title: The Forest
@@ -11,9 +11,17 @@ header-eyebrow: ScrollStory Demo
 header-divider: ✦ ✦ ✦
 header-subtitle: every component, one essay
 header-caption: Photo by <a href="https://unsplash.com/@sebastian_unrau">Sebastian Unrau</a> on <a href="https://unsplash.com">Unsplash</a>
+header-position: 0px
+toc-section: piano
+autoscroll: true
+
+geo: [44.600000, -110.500000]
+placename: Yellowstone National Park
+tags:
+  - music
 ---
 
-This essay demonstrates **advanced ScrollStory features**—everything from Seedling and Sapling, plus background image switching, juxtapose comparisons, and multi-section scrollyboxes. This is the full cinematic experience.
+This essay demonstrates everything from Seedling and Sapling, plus background image switching, sticky backgrounds, side-scroll sections, juxtapose comparisons, and the full header system. This is the complete cinematic experience.
 
 Notice the header above: it includes an **eyebrow** ("ScrollStory Demo"), a **divider** (the decorative line of symbols), and a **subtitle** below the title. These hero-only fields are set in the front matter:
 

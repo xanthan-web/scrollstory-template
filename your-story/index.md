@@ -18,6 +18,9 @@ summary: This essays demonstrates all the different components you might use on 
 header-image: images/sebastian-unrau-sp-p7uuT0tw-unsplash
 header-title: The Forest
 header-subtitle: a essay
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 header-position: 0px
 toc-section: piano
@@ -30,8 +33,11 @@ tags:
 ---
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 This essay demonstrates everything from Seedling and Sapling, plus background image switching, sticky backgrounds, side-scroll sections, juxtapose comparisons, and the full header system. This is the complete cinematic experience.
 =======
+=======
+>>>>>>> Stashed changes
 This essay demonstrates **advanced ScrollStory features**—everything from Seedling and Sapling, plus background image switching, juxtapose comparisons, and multi-section scrollyboxes. This is the full cinematic experience.
 >>>>>>> Stashed changes
 

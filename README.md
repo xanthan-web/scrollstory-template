@@ -1,78 +1,55 @@
 # Xanthan ScrollStory Template
 
-**A ready-to-use template for creating immersive narrative ScrollStory essays.**
+A ready-to-use template for building immersive, scroll-driven narrative essays — built on the [Xanthan](https://xanthan-web.github.io/xanthan/) framework.
 
-## About This Repository
+## What Is a ScrollStory?
 
-This is the **ScrollStory Template** from Xanthan, a free framework for building websites with Jekyll on GitHub Pages.
+A ScrollStory is a long-form essay where images and backgrounds shift as the reader scrolls. Text appears in boxes over fixed images, backgrounds switch between sections, or content slides in from the side. The format suits narrative-driven work: place-based histories, visual arguments, research with strong visual evidence.
 
-- **What is Xanthan?** [Visit xanthan-web.github.io](https://xanthan-web.github.io/)
-- **Template Docs** See the local `instructions.md` and `/docs/` folder
-- **Questions?** Check the [troubleshooting guide](docs/content-design/troubleshooting) or [report an issue](https://github.com/xanthan-web/scrollstory-template/issues)
-
-
+The ScrollStory template gives you a working example to edit rather than build from scratch. Replace the sample text and images with your own content, following the patterns already in place.
 
 ## Quick Start
 
-You've cloned this template. **Open `index.md` to get started**—it has everything you need to know, including:
-- What a ScrollStory is and how to use this template
-- A checklist of the 5 things to customize
-- Links to guides for editing your site
-- Common questions answered
+1. Click **"Use this template"** on GitHub to create your own repository
+2. Enable GitHub Pages in Settings → Pages (source: GitHub Actions)
+3. In your repository, open `index.md` — it walks through the structure of a ScrollStory and shows the five things to customize first
+4. Edit `_config.yml` to set your site's `title` and `baseurl`
 
+Your site will be live at `YOUR-USERNAME.github.io/REPO-NAME` within a minute or two of enabling Pages.
 
+## Documentation
 
----
+Documentation is bundled in the `/docs/` folder and also online.
 
-**Next step:** Open `index.md` in your browser or editor to begin customizing your site.
+**ScrollStory-specific:**
+- [ScrollStory Overview](https://xanthan-web.github.io/xanthan/docs/scrollstories/) — How ScrollStories work
+- [Background Scrollboxes](https://xanthan-web.github.io/xanthan/docs/scrollstories/bg-scrollbox) — Text over fixed images
+- [Background Switching](https://xanthan-web.github.io/xanthan/docs/scrollstories/bg-switch) — Changing backgrounds between sections
+- [Side Scrolling](https://xanthan-web.github.io/xanthan/docs/scrollstories/side-scroll) — Horizontal layouts
 
+**General:**
+- [Getting Started](https://xanthan-web.github.io/xanthan/docs/getting-started/) — Setup and basic usage
+- [Editing](https://xanthan-web.github.io/xanthan/docs/editing/) — Images, colors, typography
+- [Using AI](https://xanthan-web.github.io/xanthan/docs/using-ai/) — Working with AI assistants to build your ScrollStory
 
-## Documentation & Help
+You can delete `/docs/` once you're comfortable — all components will keep working.
 
-### Template-Specific Help
-- **[instructions.md](instructions.md)** - Template-specific guide (delete when done)
+## Relationship to Xanthan
 
-### Documentation in Your Repository
-📚 **Local docs in `/docs/` folder** - Complete Xanthan documentation
+This template is one of three maintained distributions of the [Xanthan](https://github.com/xanthan-web/xanthan) framework:
 
-Browse documentation directly in your repository:
-- **Getting Started** - Setup and basic usage
-- **Content & Design** - Typography, images, colors
-- **ScrollStories** - Advanced scrolling techniques
+| Template | Purpose |
+|---|---|
+| [Portfolio](https://github.com/xanthan-web/portfolio-template) | Single-author personal or academic site |
+| [Class Project](https://github.com/xanthan-web/class-project-template) | Multi-author collaborative course site |
+| **ScrollStory** | Single immersive scrolling narrative |
 
-**Note:** You can safely delete the `/docs/` folder once you're comfortable with Xanthan.
+Framework updates sync automatically from the main Xanthan repository. `XANTHAN_CHANGELOG.md` tracks what changed with each sync.
 
-### Online Documentation
-📖 **[Xanthan Documentation Site](https://xanthan-web.github.io/xanthan/docs/)** - Latest documentation
+## Troubleshooting
 
-**Essential ScrollStory Guides:**
-- [ScrollStory Overview](https://xanthan-web.github.io/xanthan/docs/scrollstories/) - How ScrollStories work
-- [Background Scrollboxes](https://xanthan-web.github.io/xanthan/docs/scrollstories/bg-scrollbox) - Text over images
-- [Background Switching](https://xanthan-web.github.io/xanthan/docs/scrollstories/bg-switch) - Changing backgrounds
-- [Side Scrolling](https://xanthan-web.github.io/xanthan/docs/scrollstories/side-scroll) - Horizontal layouts
+Having issues? Check the [Troubleshooting Guide](https://xanthan-web.github.io/xanthan/docs/reference/troubleshooting) or [report an issue](https://github.com/xanthan-web/scrollstory-template/issues).
 
-### Using AI Assistance
-Want help customizing your ScrollStory? See [Using AI Assistance](https://xanthan-web.github.io/xanthan/docs/content-design/using-ai-assistance) to learn how to work with Claude or ChatGPT.
+## License
 
-### Troubleshooting
-Having issues? Check the [Troubleshooting Guide](https://xanthan-web.github.io/xanthan/docs/content-design/troubleshooting) for common problems and solutions.
-
-## About Xanthan
-
-[Xanthan](https://xanthan-web.github.io/xanthan/) is a free, open-source website framework for digital scholarship, portfolios, and narrative essays. It's built on Jekyll and designed for researchers, students, and writers who want powerful design tools without deep technical knowledge.
-
-**Key Features:**
-- Works entirely in your browser (no software to install)
-- Free hosting on GitHub Pages
-- Beautiful, accessible design out of the box
-- Powerful components for scholarly and creative work
-- AI-friendly for easy customization
-
-## Version Information
-
-This template is regularly updated with the latest Xanthan features.
-
-- **Xanthan Framework**: See `XANTHAN_CHANGELOG.md` for version and changes
-- **Template Content**: Maintained separately from Xanthan core
-
-When you fork this template, you get a snapshot of Xanthan at that moment. To get new Xanthan features later, you can manually copy files from this template repository.
+Open source and free to use for any purpose.

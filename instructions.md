@@ -5,7 +5,7 @@ layout: base
 
 # Using This ScrollStory Template
 
-**Welcome!** This page guides you through customizing this template for your own ScrollStory essay. Once you're done editing (or feel like you got the hang of it), **can you delete this file**—it's just for getting started.
+This page guides you through customizing this template for your own ScrollStory essay. Once you're done editing (or feel like you got the hang of it), **you can delete this file**—it's just for getting started.
 
 
 ## What You Have
@@ -14,6 +14,27 @@ This template includes:
 - **Sample ScrollStory essay** in the `/your-story/` folder. You'll rename this for your project.
 - **About page** for general information about you or your project (about.md)
 - **Bibliography page** for your sources (bibliography.md)
+
+
+## Using AI to Build Your ScrollStory
+
+ScrollStories have more moving parts than a standard page—background images, scrollyboxes, carousels, pacing parameters. AI assistants handle this well because Xanthan's components use named parameters and clear structure.
+
+**A good opening prompt:**
+
+> "I'm building a ScrollStory essay using the Xanthan Jekyll framework. Here's my essay file: [paste your `your-story/index.md`]. I want to add a scrollybox with a background image that shows text overlaid on a full-screen forest photo. The image is at `images/forest.jpg`. Can you show me the include tag to use?"
+
+Or to get started from scratch:
+
+> "I'm using the Xanthan ScrollStory template. I want to create an essay about the history of urban parks. Can you help me outline the essay structure and suggest which ScrollStory components would work best for each section?"
+
+AI is especially useful for:
+- Writing or editing the scrollybox `box-content` text
+- Adjusting `above-box-space` and `below-box-space` for pacing
+- Troubleshooting broken Liquid tags
+- Explaining what any component parameter does
+
+The [ScrollStory documentation](docs/scrollstories/) shows every component with its full parameter list—paste relevant sections into your AI conversation as needed.
 
 
 ## Start Editing!
@@ -138,5 +159,4 @@ Once you're comfortable working with your site:
  
 ---
 
-{: .text-center .text-muted}
 **Questions?** Check the [Xanthan documentation](https://xanthan-web.github.io/xanthan/) or [report an issue](https://github.com/xanthan-web/scrollstory-template/issues).

@@ -7,7 +7,7 @@ layout: base
 
 A ready-to-use template for creating immersive narrative essays with scrolling backgrounds, overlays, and visual storytelling. This template is part of [Xanthan](xanthan-web-github.io).
 
-This page is the `index.md` file in your repository. You'll evenually replace everything here with your own introduction to your scrollstory.
+This page is the `index.md` file in your repository. You'll eventually replace everything here with your own introduction to your scrollstory.
 
 You should be viewing this page at `https://[your-username].github.io/[repository-name]`
 
@@ -15,12 +15,12 @@ So that you can edit this homepage for your own site, all the instructions for e
 
 
 ## Documentation
-- 📖 [Complete Xanthan Docs](docs/) — Your site has all the docs for your template
-- 🎨 [Design & Content](docs/content-design/) — Colors, fonts, images
-- 🏗️ [Navigation](docs/navigation/) — How to organize pages
+- [Complete Xanthan Docs](docs/) — Your site has all the docs for your template
+- [Editing & Content](docs/editing/colors-and-fonts.md) — Colors, fonts, images, page structure
+- [Navigation](docs/navigation/) — How to organize pages
 
 
 ## Questions or Problems?
-- Check the [troubleshooting guide](docs/content-design/troubleshooting)
+- Check the [troubleshooting guide](docs/reference/troubleshooting.md) for common issues
 - Ask an AI assistant (Claude, ChatGPT) — They're great at helping customize templates
 - [Report an issue](https://github.com/xanthan-web/scrollstory-template/issues) on GitHub

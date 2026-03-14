@@ -15,13 +15,8 @@ header-caption: Photo by <a href="https://unsplash.com/@sebastian_unrau">Sebasti
 =======
 thumbnail: images/forest.png
 summary: This essays demonstrates all the different components you might use on your page. Of course you don't need to use them all, but it's a good starting point if you feel comfortable with code snippets and deleting what you don't need.
-header-image: images/sebastian-unrau-sp-p7uuT0tw-unsplash
-header-title: The Forest
-header-subtitle: a essay
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+header-image: images/forest.png
+header-title:
 header-position: 0px
 toc-section: piano
 autoscroll: true
@@ -32,12 +27,7 @@ tags:
   - music
 ---
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-This essay demonstrates everything from Seedling and Sapling, plus background image switching, sticky backgrounds, side-scroll sections, juxtapose comparisons, and the full header system. This is the complete cinematic experience.
-=======
-=======
->>>>>>> Stashed changes
+# A Forest Essay
 This essay demonstrates **advanced ScrollStory features**—everything from Seedling and Sapling, plus background image switching, juxtapose comparisons, and multi-section scrollyboxes. This is the full cinematic experience.
 >>>>>>> Stashed changes
 

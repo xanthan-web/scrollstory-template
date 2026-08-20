@@ -10,10 +10,12 @@ This page guides you through customizing this template for your own ScrollStory 
 
 ## What You Have
 This template includes:
-- **Homepage** that introduces your essay (index.md)
-- **Sample ScrollStory essay** in the `/your-story/` folder. You'll rename this for your project.
-- **About page** for general information about you or your project (about.md)
-- **Bibliography page** for your sources (bibliography.md)
+- **The essay itself, as your homepage** (`index.md`). A visitor lands in the
+  scrollstory rather than on a page describing one. It ships as a demo called
+  "The Forest" that uses every ScrollStory component at least once.
+- **Its images** in `images/` at the top level, next to `index.md`
+- **About page** for general information about you or your project (`about.md`)
+- **Bibliography page** for your sources (`bibliography.md`)
 
 
 ## Using AI to Build Your ScrollStory
@@ -22,7 +24,7 @@ ScrollStories have more moving parts than a standard page—background images, s
 
 **A good opening prompt:**
 
-> "I'm building a ScrollStory essay using the Xanthan Jekyll framework. Here's my essay file: [paste your `your-story/index.md`]. I want to add a scrollybox with a background image that shows text overlaid on a full-screen forest photo. The image is at `images/forest.jpg`. Can you show me the include tag to use?"
+> "I'm building a ScrollStory essay using the Xanthan Jekyll framework. Here's my essay file: [paste your `index.md`]. I want to add a scrollybox with a background image that shows text overlaid on a full-screen forest photo. The image is at `images/forest.jpg`. Can you show me the include tag to use?"
 
 Or to get started from scratch:
 
@@ -43,11 +45,13 @@ If you're not familiar with [editing your site on GitHub](docs/getting-started/e
 
 
 
-### 1. Customize the Homepage (`index.md`)
+### 1. Make the Essay Yours (`index.md`)
 
-Edit `index.md` in the root folder to:
-- Change the title and introduction
-- Introduce your project, etc.
+`index.md` **is** your essay — it is what a visitor sees first. Start at the
+top:
+- Change `title`, `header-title` and `header-subtitle` in the front matter
+- Replace `header-image` with your own opening picture
+- Then work down through the scrollyboxes, replacing text as you go
 
 
 ### 2. Edit the About Page (`about.md`)
@@ -68,7 +72,7 @@ Add your sources and references:
 
 ### Understanding the Essay Structure
 
-Open `/your-story/index.md` to see your essay content. The file includes:
+Open `index.md` to see your essay content. The file includes:
 
 **Front Matter (top of file):**
 ```yaml
@@ -85,12 +89,12 @@ title: Your Essay Title
 
 ### Replacing Sample Content
 
-1. **Edit the text** in `your-story/index.md`
+1. **Edit the text** in `index.md`
    - Keep the special tags (like `{% include scrollybox/bg.html %}`)
    - Replace the text inside scrollboxes with your content
    - Update image paths to point to your own images
 
-2. **Add your images** to `your-story/images/`:
+2. **Add your images** to `images/`:
    - Upload ALL images here
    - Use descriptive filenames (e.g., `forest-view.jpg`, `historical-map.png`)
 
@@ -101,36 +105,20 @@ title: Your Essay Title
    - How to create side-scrolling sections
 
 
-## Renaming Your Essay Folder
-
-Eventually you'll want to rename `/your-story/` to match your essay topic. Here's how:
-
-1. **Rename the folder** to your essay title:
-   - Example: `/scrollstory/` → `/forest-history/`
-   - Keep the name lowercase with hyphens (no spaces)
-
-2. **Update navigation** in `_data/top-nav.yml`:
-   - Find the line with `/your-story`
-   - Change it to `/forest-history` (obviously use your own folder name from step 1)
-
-3. **Update homepage link** in `index.md`:
-   - Find links pointing to `/your-story`
-   - Update them to your new folder name
-
-
 ## Adding Images
 
 ### Where to Put Images
 
-Put all your essay images in your essay folder's `images/` directory:
+Put all your essay images in the `images/` folder beside `index.md`:
 ```
-your-story/
-├── index.md
-└── images/
-    ├── background-1.jpg
-    ├── background-2.jpg
-    └── detail-photo.png
+index.md
+images/
+├── background-1.jpg
+├── background-2.jpg
+└── detail-photo.png
 ```
+That is why the essay refers to them as `images/background-1.jpg` — the path is
+relative to the page.
 
 
 ## Getting Help

@@ -12,7 +12,7 @@ The ScrollStory template gives you a working example to edit rather than build f
 
 1. Click **"Use this template"** on GitHub to create your own repository
 2. Enable GitHub Pages in Settings → Pages (source: GitHub Actions)
-3. In your repository, open `index.md` — it walks through the structure of a ScrollStory and shows the five things to customize first
+3. In your repository, open `index.md` — this **is** the essay, and the page a visitor lands on. Change the title and header image at the top, then work down through the scrollyboxes. `instructions.md` walks through it.
 4. Edit `_config.yml` to set your site's `title` and `baseurl`
 
 Your site will be live at `YOUR-USERNAME.github.io/REPO-NAME` within a minute or two of enabling Pages.
